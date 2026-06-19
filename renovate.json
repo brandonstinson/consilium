@@ -9,6 +9,10 @@
       "minimumReleaseAgeBehaviour": "timestamp-required"
     },
     {
+      "matchPackagePatterns": ["^@expo", "^expo", "^react"],
+      "enabled": false
+    },
+    {
       "matchPackageNames": ["oxlint"],
       "matchManagers": ["npm"],
       "groupName": "oxlint"
