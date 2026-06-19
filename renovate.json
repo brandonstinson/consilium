@@ -9,8 +9,12 @@
       "minimumReleaseAgeBehaviour": "timestamp-required"
     },
     {
-      "matchPackagePatterns": ["^@expo", "^expo", "^react"],
-      "enabled": false
+      "enabled": false,
+      "matchPackageNames": [
+        "/^@expo/",
+        "/^expo/",
+        "/^react/"
+      ]
     },
     {
       "matchPackageNames": ["oxlint"],
