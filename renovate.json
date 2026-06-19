@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", "schedule:daily"],
+  "timezone": "America/New_York",
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "3 days",
+      "minimumReleaseAgeBehaviour": "timestamp-required"
+    },
+    {
+      "matchPackageNames": ["oxlint"],
+      "matchManagers": ["npm"],
+      "groupName": "oxlint"
+    }
+  ]
+}
