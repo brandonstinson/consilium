@@ -10,11 +10,7 @@
     },
     {
       "enabled": false,
-      "matchPackageNames": [
-        "/^@expo/",
-        "/^expo/",
-        "/^react/"
-      ]
+      "matchPackageNames": ["/^@expo/", "/^expo/", "/^react/"]
     },
     {
       "matchPackageNames": ["oxlint"],

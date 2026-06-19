@@ -5,6 +5,8 @@
   "main": "expo-router/entry",
   "scripts": {
     "android": "expo start --android",
+    "dependency:update:check": "expo install --check",
+    "dependency:update:fix": "expo install --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
     "ios": "expo start --ios",
