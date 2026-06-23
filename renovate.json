@@ -13,8 +13,8 @@
       "matchPackageNames": ["/^@expo/", "/^expo/", "/^react/"]
     },
     {
-      "matchPackageNames": ["oxlint"],
-      "groupName": "oxlint",
+      "matchPackageNames": ["oxlint", "oxfmt", "/^oxlint/", "/^@oxlint/"],
+      "groupName": "oxc-tools",
       "rangeStrategy": "update-lockfile",
       "minimumReleaseAge": null
     }
