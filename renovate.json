@@ -14,8 +14,9 @@
     },
     {
       "matchPackageNames": ["oxlint"],
-      "matchManagers": ["npm"],
-      "groupName": "oxlint"
+      "groupName": "oxlint",
+      "rangeStrategy": "update-lockfile",
+      "minimumReleaseAge": null
     }
   ]
 }
