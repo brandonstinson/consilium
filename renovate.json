@@ -15,8 +15,7 @@
     {
       "matchPackageNames": ["oxlint", "oxfmt", "/^oxlint/", "/^@oxlint/"],
       "groupName": "oxc-tools",
-      "rangeStrategy": "pin",
-      "minimumReleaseAge": null
+      "rangeStrategy": "pin"
     }
   ]
 }
